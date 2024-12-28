@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Workshop.WebDriverBasics.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df2c0553b72f74b1e8c694166d10165e7a15d4bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39f239c9d4619b183b82399d52c928567afe78ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Workshop.WebDriverBasics.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Workshop.WebDriverBasics.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
