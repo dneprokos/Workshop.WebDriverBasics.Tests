@@ -1,5 +1,5 @@
 # Workshop.WebDriver.Basics
-![main image](/images/Title.png) 
+![main image](/Images/TItle.png) 
 
 This project was prepared as a final version of Basic of WebDriver workshop project. The idea was to create a simple WebDriver project starting from Spahetti code and finishing with a simple test automation solution. All tests of this project are running in parrallel.
 
