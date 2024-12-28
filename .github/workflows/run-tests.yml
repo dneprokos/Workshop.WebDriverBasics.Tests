@@ -37,7 +37,7 @@ jobs:
       # Step 5: Run Tests
       - name: Run Tests
         working-directory: Workshop.WebDriverBasics
-        run: dotnet test --settings chrome.runsettings --logger "trx;LogFileName=test-results.trx"
+        run: dotnet test --settings Workshop.WebDriverBasics.Tests/chrome.runsettings --logger "trx;LogFileName=test-results.trx"
 
       # Step 6: Upload Test Results (Optional)
       - name: Upload Test Results
