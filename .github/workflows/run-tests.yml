@@ -44,4 +44,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: test-results
-          path: Workshop.WebDriverBasics.Tests/test-results.trx
+          path: Workshop.WebDriverBasics.Tests/TestResults/test-results.trx
+          if-no-files-found: warn
