@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="Workshop.WebDriverBasics.Tests.dll" fullname="C:\PersonalProjects\Workshop.WebDriverBasics.Tests\Workshop.WebDriverBasics\Workshop.WebDriverBasics.Tests\bin\Debug\net8.0\Workshop.WebDriverBasics.Tests.dll" runstate="Runnable" testcasecount="3" result="Failed" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.18.1.0" clr-version="8.0.11" start-time="2024-12-28 08:21:02Z" end-time="2024-12-28 08:21:05Z" duration="3.160085">
+  <command-line><![CDATA[C:\PersonalProjects\Workshop.WebDriverBasics.Tests\Workshop.WebDriverBasics\Workshop.WebDriverBasics.Tests\bin\Debug\net8.0\testhost.dll --port 13900 --endpoint 127.0.0.1:013900 --role client --parentprocessid 1288 --telemetryoptedin true]]></command-line>
+  <filter>
+    <test>Workshop.WebDriverBasics.Tests.Tests.LoginFeatureTests.Login_ValidCredentials_ShouldBeLoggedIn</test>
+  </filter>
+  <test-suite type="Assembly" id="0-1006" name="Workshop.WebDriverBasics.Tests.dll" fullname="C:\PersonalProjects\Workshop.WebDriverBasics.Tests\Workshop.WebDriverBasics\Workshop.WebDriverBasics.Tests\bin\Debug\net8.0\Workshop.WebDriverBasics.Tests.dll" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2024-12-28T08:21:02.3172243Z" end-time="2024-12-28T08:21:05.4321777Z" duration="3.114918" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="4.4.0.0" clr-version="8.0.11" os-version="Microsoft Windows 10.0.26100" platform="Win32NT" cwd="C:\PersonalProjects\Workshop.WebDriverBasics.Tests\Workshop.WebDriverBasics\Workshop.WebDriverBasics.Tests\bin\Debug\net8.0" machine-name="DNEPROKOS-OMEN" user="Master" user-domain="DNEPROKOS-OMEN" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="InternalTraceLevel" value="Off" />
+      <setting name="RandomSeed" value="2077825443" />
+      <setting name="TestParametersDictionary" value="[baseUrl, https://qa-automation-test-site.web.app], [login, test@test.com], [password, test], [sessionStorageKey, user], [sessionStorageValue, admin], [logLevel, Debug]">
+        <item key="baseUrl" value="https://qa-automation-test-site.web.app" />
+        <item key="login" value="test@test.com" />
+        <item key="password" value="test" />
+        <item key="sessionStorageKey" value="user" />
+        <item key="sessionStorageValue" value="admin" />
+        <item key="logLevel" value="Debug" />
+      </setting>
+      <setting name="TestParameters" value="baseUrl=https://qa-automation-test-site.web.app;login=test@test.com;password=test;sessionStorageKey=user;sessionStorageValue=admin;logLevel=Debug" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="C:\PersonalProjects\Workshop.WebDriverBasics.Tests\Workshop.WebDriverBasics\Workshop.WebDriverBasics.Tests\bin\Debug\net8.0" />
+      <setting name="NumberOfTestWorkers" value="12" />
+    </settings>
+    <properties>
+      <property name="ParallelScope" value="All" />
+      <property name="LevelOfParallelism" value="30" />
+      <property name="_PID" value="20832" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1007" name="Workshop" fullname="Workshop" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2024-12-28T08:21:02.3213973Z" end-time="2024-12-28T08:21:05.4321730Z" duration="3.110775" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1008" name="WebDriverBasics" fullname="Workshop.WebDriverBasics" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2024-12-28T08:21:02.3216181Z" end-time="2024-12-28T08:21:05.4321691Z" duration="3.110551" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="SetUpFixture" id="0-1000" name="Tests" fullname="Workshop.WebDriverBasics.Tests.GlobalTestsSetup" classname="Workshop.WebDriverBasics.Tests.GlobalTestsSetup" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2024-12-28T08:21:02.3227505Z" end-time="2024-12-28T08:21:05.4321541Z" duration="3.109404" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="0-1010" name="Tests" fullname="Workshop.WebDriverBasics.Tests.Tests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2024-12-28T08:21:02.3263646Z" end-time="2024-12-28T08:21:05.4316969Z" duration="3.105332" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="0-1003" name="LoginFeatureTests" fullname="Workshop.WebDriverBasics.Tests.Tests.LoginFeatureTests" classname="Workshop.WebDriverBasics.Tests.Tests.LoginFeatureTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2024-12-28T08:21:02.3265027Z" end-time="2024-12-28T08:21:05.4314327Z" duration="3.104931" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="ParallelScope" value="All" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="0-1004" name="Login_ValidCredentials_ShouldBeLoggedIn" fullname="Workshop.WebDriverBasics.Tests.Tests.LoginFeatureTests.Login_ValidCredentials_ShouldBeLoggedIn" methodname="Login_ValidCredentials_ShouldBeLoggedIn" classname="Workshop.WebDriverBasics.Tests.Tests.LoginFeatureTests" runstate="Runnable" seed="2071194114" result="Failed" label="Error" start-time="2024-12-28T08:21:02.3322173Z" end-time="2024-12-28T08:21:05.4291340Z" duration="3.096973" asserts="0">
+                <failure>
+                  <message><![CDATA[OpenQA.Selenium.UnhandledAlertException : unexpected alert open: {Alert text : Invalid credentials}
+  (Session info: chrome=131.0.6778.205)]]></message>
+                  <stack-trace><![CDATA[   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at Workshop.WebDriverBasics.Tests.Tests.LoginFeatureTests.Login_ValidCredentials_ShouldBeLoggedIn() in C:\PersonalProjects\Workshop.WebDriverBasics.Tests\Workshop.WebDriverBasics\Workshop.WebDriverBasics.Tests\Tests\LoginFeatureTests.cs:line 21
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
