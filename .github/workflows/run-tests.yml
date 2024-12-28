@@ -34,14 +34,20 @@ jobs:
         working-directory: Workshop.WebDriverBasics
         run: dotnet restore
 
-      # Step 5: Run Tests
+      # Step 5: Run Tests and Save Results
       - name: Run Tests
         working-directory: Workshop.WebDriverBasics
-        run: dotnet test --settings Workshop.WebDriverBasics.Tests/chrome.runsettings --logger "trx;LogFileName=test-results.trx"
+        run: dotnet test --settings Workshop.WebDriverBasics.Tests/chrome.runsettings --logger "trx;LogFileName=TestResults/test-results.trx"
 
-      # Step 6: Upload Test Results (Optional)
+      # Step 6: Find and Upload Test Results
+      - name: Locate and Upload Test Results
+        run: |
+          echo "::set-output name=results_path::$(find . -name 'test-results.trx')"
+        id: locate-results
+
       - name: Upload Test Results
         uses: actions/upload-artifact@v3
         with:
           name: test-results
-          path: Workshop.WebDriverBasics/test-results.trx
+          path: ${{ steps.locate-results.outputs.results_path }}
+          if-no-files-found: warn
